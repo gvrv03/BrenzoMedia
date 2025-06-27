@@ -5,7 +5,6 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="py-20  px-6 text-center max-w-6xl mx-auto">
-      {/* <Image src="/GridTunnel.svg" height={100} width={100} className=" w-full md:-top-14 left-0  absolute  " /> */}
       <div className="absolute inset-0 z-0 opacity-30 pointer-events-none">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -28,11 +27,6 @@ const Hero = () => {
       </div>
 
       {/* Subtle background pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 w-96 h-96 bg-[#4FB6EC]   rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-[#4FB6EC]  rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#4FB6EC]  -600 rounded-full blur-3xl"></div>
-      </div>
       <div className=" w-full grid place-items-center">
         <div className="mb-4 w-fit  items-center flex gap-2 px-4 py-1 text-sm border border-white/10 bg-white/5 backdrop-blur-md rounded-full text-[#00f2ff]">
           <Star className="animate-spin  w-4" /> Strategic Content Partner for

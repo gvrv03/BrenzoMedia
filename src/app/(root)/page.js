@@ -53,13 +53,13 @@ export default function LandingPage() {
 
       <ContactForm />
 
-      <Cal namespace="30min"
+      {/* <Cal namespace="30min"
     calLink="brenzomedia/30min"
     style={{width:"100%",height:"100%",overflow:"scroll"}}
     config={{"layout":"month_view","theme":"dark"}}
     
     
-  />
+  /> */}
       {/* Footer */}
       <footer className="py-8 px-6 text-center border-t border-white/10 mt-10 text-sm">
         <p className="mb-2">Contact: hello@brenzo.media</p>
