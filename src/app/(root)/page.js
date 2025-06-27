@@ -34,9 +34,6 @@ export default function LandingPage() {
         <h2 className="text-3xl font-bold mb-4 text-[#00f2ff]">
           Ready to Become the face of your niche?
         </h2>
-        <p className="text-lg mb-4 font-semibold ">
-          👉 We work with a select few creators each month — apply before it fills up.
-        </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <button
             data-cal-namespace="30min"
