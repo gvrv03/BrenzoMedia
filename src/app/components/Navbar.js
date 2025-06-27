@@ -20,7 +20,7 @@ export default function Navbar() {
     <>
       <header
         className={`fixed top-0 w-full left-0 z-50 transition-all duration-500 ${
-          scrolled ? " backdrop-blur-3xl  " : "bg-transparent"
+          scrolled ? " bg-black  " : ""
         }`}
       >
         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -29,7 +29,7 @@ export default function Navbar() {
               <span className="text-2xl md:text-4xl font-semibold" >B</span>renzo <span className="font-semibold" >Media</span>
             </div>
 
-            <div className="hidden md:block">
+            <div className="">
               <button
                 data-cal-namespace="30min"
                 data-cal-link="brenzomedia/30min"

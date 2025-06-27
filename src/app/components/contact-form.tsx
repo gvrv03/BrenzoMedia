@@ -11,6 +11,8 @@ import {
   CheckCircle,
   AlertCircle,
   Loader2,
+  User2,
+  MessageSquareDashed,
 } from "lucide-react"
 import { useEffect, useState } from "react"
 import { handleContactSubmission } from "../../actions/contact"
@@ -182,19 +184,18 @@ export default function ContactForm() {
                     className="w-full pl-12 pr-4 py-3 glass bg-white/5 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:border-[#4FB6EC] focus:outline-none transition-all duration-300 hover:border-[#4FB6EC] disabled:opacity-50"
                   />
                 </div>
+                <div className="relative group">
+                  <MessageSquareDashed className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-[#4FB6EC]" />
+                  <input
+                    type="text"
+                    name="projectType"
+                    placeholder="Your Instagram/Youtube"
+                    disabled={isPending}
+                    className="w-full pl-12 pr-4 py-3 glass bg-white/5 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:border-[#4FB6EC] focus:outline-none transition-all duration-300 hover:border-[#4FB6EC] disabled:opacity-50"
+                  />
+                </div>
 
-                <select
-                  name="projectType"
-                  required
-                  disabled={isPending}
-                  className="w-full px-4 py-3 glass bg-white/5 border border-white/20 rounded-lg text-white focus:border-[#4FB6EC] focus:outline-none transition-all duration-300 hover:border-[#4FB6EC] disabled:opacity-50"
-                >
-                  <option value="">Select Project Type</option>
-                  <option value="content-strategy">Content Strategy</option>
-                  <option value="brand-building">Brand Building</option>
-                  <option value="social-growth">Social Media Growth</option>
-                  <option value="full-service">Full Service Package</option>
-                </select>
+               
               </div>
 
               {/* Message */}

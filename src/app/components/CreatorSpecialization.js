@@ -29,12 +29,7 @@ const CreatorSpecialization = () => {
           <span className=" not-only:neon-text">
             We Specialize In
           </span>{" "}
-          <span className=" bgGradient rounded-full mt-3  px-6 py-3 inline-block">
-            <span className="text-white relative z-10">
-              3 Types of Creators
-            </span>
-         
-          </span>
+          
         </h2>
       </div>
 

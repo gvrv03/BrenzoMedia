@@ -35,9 +35,7 @@ export default function LandingPage() {
           Ready to Become the face of your niche?
         </h2>
         <p className="text-lg mb-4 font-semibold ">
-          👉 Apply now to work with{" "}
-          <span className="textGradient">Brenzo Media</span> - limited creator
-          spots open each month
+          👉 We work with a select few creators each month — apply before it fills up.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <button
