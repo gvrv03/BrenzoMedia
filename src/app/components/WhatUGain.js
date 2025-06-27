@@ -13,7 +13,7 @@ const WhatUGain = () => {
     <section className="w-full  bg-black bg-opacity-90 text-white flex flex-col items-center">
       <div className="max-w-3xl text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          <span className="animate-bounce" >🚀</span> <span className="textGradient neon-text">Here's What You’ll Gain</span>
+          <span className="animate-bounce" >🚀</span> <span className="textGradient neon-text">Here's What You &#769;ll Gain</span>
         </h2>
         <p className="text-gray-400 text-lg">
           Just sit back and watch yourself go viral —<br />

@@ -62,7 +62,7 @@ export default function ContactForm() {
               </div>
             </div>
             <p className="text-xl text-white max-w-3xl mx-auto">
-              Ready to scale your content and grow your brand? Let's discuss your project.
+              Ready to scale your content and grow your brand? Let &#769;s discuss your project.
             </p>
           </div>
         </div>
@@ -230,7 +230,7 @@ export default function ContactForm() {
               </button>
 
               <p className="text-white text-sm mt-4 text-center">
-                We'll get back to you within 24 hours
+                We  &#769;ll get back to you within 24 hours
               </p>
             </form>
           </div>

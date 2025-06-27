@@ -137,7 +137,7 @@ export default function RefundPolicy() {
                 <ul className="list-disc list-inside space-y-2">
                   <li>30 days written notice required for cancellation</li>
                   <li>Services continue until the end of the current billing period</li>
-                  <li>No refund for the current month's services</li>
+                  <li>No refund for the current month &#769;s services</li>
                   <li>All completed work and source files will be provided</li>
                 </ul>
 
@@ -154,8 +154,8 @@ export default function RefundPolicy() {
               <h2 className="text-2xl font-bold mb-4">Dispute Resolution</h2>
               <div className="space-y-4 text-gray-300">
                 <p>
-                  If you're unsatisfied with our refund decision, we encourage you to contact us directly to discuss
-                  alternative solutions. We're committed to finding mutually beneficial resolutions.
+                  If you &#769;re unsatisfied with our refund decision, we encourage you to contact us directly to discuss
+                  alternative solutions. We &#769;re committed to finding mutually beneficial resolutions.
                 </p>
                 <div className="glass backdrop-blur-md bgGradient   /20 p-4 rounded-lg">
                   <h4 className="font-semibold text-white mb-2">Alternative Solutions May Include:</h4>
