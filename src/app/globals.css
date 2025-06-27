@@ -2,7 +2,8 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
+  --gradientColor:linear-gradient(90deg,rgba(79, 194, 240, 1) 0%, rgba(44, 102, 219, 1) 50%, #0033ff 100%);
 }
 
 @theme inline {
@@ -18,9 +19,86 @@
     --foreground: #ededed;
   }
 }
-
+.bg-grid-3d {
+  background-image: linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  perspective: 1000px;
+  transform: rotateX(60deg);
+}
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Keyframes for animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradientTextAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bgGradient {
+  background: var(--gradientColor);
+  background-size: 600% 600%;
+  animation: gradientAnimation 8s ease infinite;
+}
+.textGradient {
+  background:var(--gradientColor);
+  background-size: 600% 600%;
+  animation: gradientTextAnimation 8s ease infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
+
+
+@keyframes gradientShadow {
+  0% {
+    box-shadow: 0 0 20px #4f46e5, 0 0 40px #9333ea, 0 0 60px #ec4899;
+  }
+  50% {
+    box-shadow: 0 0 40px #9333ea, 0 0 60px #ec4899, 0 0 80px #f59e0b;
+  }
+  100% {
+    box-shadow: 0 0 20px #4f46e5, 0 0 40px #9333ea, 0 0 60px #ec4899;
+  }
+}
+
+.animate-gradientShadow {
+  animation: gradientShadow 5s ease-in-out infinite;
 }
