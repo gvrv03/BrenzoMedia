@@ -48,19 +48,12 @@ export default function LandingPage() {
 
       <ContactForm />
 
-      {/* <Cal namespace="30min"
-    calLink="brenzomedia/30min"
-    style={{width:"100%",height:"100%",overflow:"scroll"}}
-    config={{"layout":"month_view","theme":"dark"}}
-    
-    
-  /> */}
       {/* Footer */}
       <footer className="py-8 px-6 text-center border-t border-white/10 mt-10 text-sm">
-        <p className="mb-2">Contact: hello@brenzo.media</p>
+        <p className="mb-2">Contact: brenzomedia@gmail.com</p>
         <p className="mb-2">Made by Brenzo Media</p>
         <div className="flex justify-center gap-4">
-          <a href="#" className="hover:underline text-[#00f2ff]">
+          <a href="#" className="hover:underline  text-[#00f2ff]">
             Instagram
           </a>
           <a href="#" className="hover:underline text-[#00f2ff]">
