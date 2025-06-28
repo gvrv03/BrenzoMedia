@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <h1 className=" text-4xl z-50 sm:text-6xl font-extrabold leading-tight ">
+      <h1 className=" text-3xl z-50 sm:text-6xl font-extrabold leading-tight ">
         Content Marketing <span className="textGradient">Agency</span>
       </h1>
       <p className="mt-6 text-lg max-w-2xl mx-auto">
