@@ -53,7 +53,7 @@ const CreatorSpecialization = () => {
 
       {/* Final message */}
       <div className="mt-16 text-center max-w-xl bgGradient bg-opacity-5 border border-white/10 backdrop-blur-md rounded-xl px-6 py-4 shadow-[0_0_20px_#00ffff33]">
-        <p className="text-white  text-lg font-medium">
+        <p className="text-white  text-base font-medium">
           🧠 If you’ve got long-form videos or raw content — we’ll make it work
           for you.
         </p>
