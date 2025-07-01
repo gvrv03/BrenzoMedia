@@ -11,5 +11,5 @@ export default function HomeLayout({ children }) {
       cal("ui", { hideEventTypeDetails: false, layout: "month_view" });
     })();
   }, []);
-  return <>{children}</>;
+  return <div className="">{children}</div>;
 }

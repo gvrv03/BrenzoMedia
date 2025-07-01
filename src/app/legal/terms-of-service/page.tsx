@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function TermsOfService() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen  text-white">
       <div className="max-w-7xl mx-auto  sm:px-6 lg:px-8 py-16">
         <Link
           href="/"

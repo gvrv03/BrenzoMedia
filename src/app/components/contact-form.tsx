@@ -44,7 +44,7 @@ export default function ContactForm() {
 
   return (
     <section id="contact-form" className="py-16 relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 relative z-10">
         {/* Heading */}
         <div className="text-center mb-16">
           <div
@@ -77,7 +77,7 @@ export default function ContactForm() {
               isVisible ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"
             }`}
           >
-            <div className="glass backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-8">
+            <div className="glass backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-5">
               <h3
                 className="text-2xl font-bold text-white mb-6"
                 style={{ fontFamily: "Space Grotesk, sans-serif" }}
@@ -125,7 +125,7 @@ export default function ContactForm() {
           >
             <form
               action={formAction}
-              className="glass backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-8 transition-all duration-500 hover:border-[#4FB6EC]/40"
+              className="glass backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-4 transition-all duration-500 hover:border-[#4FB6EC]/40"
             >
               {/* Status Message */}
               {state?.message && (

@@ -16,7 +16,7 @@ export default function LandingPage() {
     })();
   }, [])
   return (
-    <div className="bg-gradient-to-br from-black via-[#000522] flex flex-col gap-20  to-black  text-white font-sans min-h-screen">
+    <div className="bg-gradient-to-br from-black via-[#000522] flex flex-col  to-black  text-white font-sans min-h-screen">
       {/* Hero Section */}
       <Hero />
 
@@ -30,7 +30,7 @@ export default function LandingPage() {
       <CreatorSpecialization />
 
       {/* Call to Action - Bottom */}
-      <section className="py-12 px-6 text-center backdrop-blur-md bg-white/5 rounded-xl border border-white/10 shadow-[0_0_20px_#0033ff] max-w-4xl mx-auto mt-10">
+      <section className="py-12 px-6 mx-2 text-center backdrop-blur-md bg-white/5 rounded-xl border border-white/10 shadow-[0_0_20px_#0033ff] max-w-4xl md:mx-auto mt-10">
         <h2 className="text-3xl font-bold mb-4 text-[#00f2ff]">
           Ready to Become the face of your niche?
         </h2>
@@ -47,20 +47,6 @@ export default function LandingPage() {
       </section>
 
       <ContactForm />
-
-      {/* Footer */}
-      <footer className="py-8 px-6 text-center border-t border-white/10 mt-10 text-sm">
-        <p className="mb-2">Contact: brenzomedia@gmail.com</p>
-        <p className="mb-2">Made by Brenzo Media</p>
-        <div className="flex justify-center gap-4">
-          <a href="#" className="hover:underline  text-[#00f2ff]">
-            Instagram
-          </a>
-          <a href="#" className="hover:underline text-[#00f2ff]">
-            YouTube
-          </a>
-        </div>
-      </footer>
     </div>
   );
 }

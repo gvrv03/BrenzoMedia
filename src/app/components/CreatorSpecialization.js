@@ -22,7 +22,7 @@ const creatorTypes = [
 
 const CreatorSpecialization = () => {
   return (
-    <section className="w-full  bg-black bg-opacity-90 text-white flex flex-col items-center">
+    <section className="w-full px-2 py-10   bg-opacity-90 text-white flex flex-col items-center">
       <div className="text-center mb-14">
         <h2 className="text-4xl md:text-5xl font-bold mb-4">
           🎯{" "}

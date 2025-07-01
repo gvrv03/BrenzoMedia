@@ -25,8 +25,14 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center md:text-3xl  text-xl group">
-              <span className="text-2xl md:text-4xl font-semibold" >B</span>renzo <span className="font-semibold" >Media</span>
+            <div className="flex  md:text-3xl  text-xl group">
+              <Image
+                src="/logo.png"
+                width={100}
+                className="h-10 w-7"
+                height={100}
+              />
+              <span className="font-semibold ml-1 mt-2">renzoMedia</span>
             </div>
 
             <div className="">

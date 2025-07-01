@@ -10,7 +10,7 @@ const benefits = [
 
 const WhatUGain = () => {
   return (
-    <section className="w-full  bg-black bg-opacity-90 text-white flex flex-col items-center">
+    <section className="w-full   py-10 px-2 bg-opacity-90 text-white flex flex-col items-center">
       <div className="max-w-3xl text-center mb-5">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
           <span className="animate-bounce" ></span> <span className="textGradient neon-text">Why Top Voices Choose Us </span> 👇🏻
