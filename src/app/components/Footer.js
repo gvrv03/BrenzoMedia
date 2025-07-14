@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         {/* Pages */}
-        <div>
+        {/* <div>
           <h3 className="font-semibold mb-3">Pages</h3>
           <ul className="space-y-2 text-sm text-white/70">
             <li>Home</li>
@@ -29,10 +29,10 @@ const Footer = () => {
             <li>Wall of Love</li>
             <li>Growth</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Legal */}
-        <div>
+        {/* <div>
           <h3 className="font-semibold mb-3">Legal</h3>
           <ul className="space-y-2 text-sm text-white/70">
             <li>Terms & Conditions</li>
@@ -40,7 +40,7 @@ const Footer = () => {
             <li>Imprint / Legal Notice</li>
             <li>Refund Policy</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Contact */}
         <div>
