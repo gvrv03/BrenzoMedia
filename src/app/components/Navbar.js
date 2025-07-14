@@ -40,10 +40,10 @@ export default function Navbar() {
                 data-cal-namespace="30min"
                 data-cal-link="brenzomedia/30min"
                 data-cal-config='{"layout":"month_view"}'
-                className="bgGradient rounded-full cursor-pointer text-white px-6 py-2  hover:bg-[#4FB6EC]  transition-all duration-300 font-medium hover:scale-105 hover:shadow-lg hover:shadow-[#4FB6EC]  /25 flex items-center"
+                className="bgGradient rounded-full cursor-pointer  text-white px-6 py-2  hover:bg-[#4FB6EC]  transition-all duration-300 font-medium gap-2  hover:scale-105 hover:shadow-lg justify-center hover:shadow-[#4FB6EC]  /25 flex items-center"
               >
-                <Phone className="w-4 h-4 mr-2" />
-                Book Strategy Chat
+                <Phone className="w-4 h-4 " />
+                <span className=" hidden md:block" >Book Strategy Chat</span>
               </button>
             </div>
           </div>
